@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap onto multiple lines if needed */
+    justify-content: space-around; /* Distributes columns evenly */
+    padding: 20px;
+}
+
+.column {
+    border: 1px solid #ccc; /* Adds a border to each column */
+    padding: 10px;
+    width: 23%; /* Adjust this width as needed (e.g., 24% or 25%) */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    margin-bottom: 20px; /* Adds spacing between columns */
+}
+
+.column img {
+    max-width: 100%; /* Makes sure images don't overflow their container */
+    height: auto; /* Maintains aspect ratio */
+}
